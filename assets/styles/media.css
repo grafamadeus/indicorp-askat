@@ -1,0 +1,113 @@
+
+/* media querry */
+/* медиа запрос */
+@media (max-width: 1330px) {
+    .hero {
+        background-position: right;
+    }
+}
+
+@media (max-width: 1120px) {
+    .container {
+        max-width: 1000px;
+    }
+    .hero {
+        background-position: left;
+    }
+    .card__title {
+        font-size: 22px;
+    }
+    .clients__logos > .container {
+        column-gap: 0;
+    }
+    .clients__logos img {
+        width: 25.33333%;
+    }
+}
+
+@media (max-width: 1021px) {
+    .container {
+        max-width: 940px;
+    }
+    .card__title {
+        font-size: 20px;
+    }
+    .about__video > video {
+        width: 515px;
+    }
+    .subscribe {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .footer__menu {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 901px) {
+    .container {
+        max-width: 850px;
+    }
+    .hero__card {
+        padding: 35px 0 35px 20px;
+    }
+    .features__content {
+        padding: 15px;
+    }
+    .about__video > video {
+        width: 430px;
+        height: 410px;
+    }
+}
+
+@media (max-width: 831px) {
+    .hero__card {
+        padding: 35px 20px;
+    }
+    .card__title {
+        font-size: 18px;
+    }
+    .why-choose-us__cards {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .why-choose-us__card {
+        width: 47%;
+    }
+    .features__grid {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+    .about__flex {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 72px;
+    }
+    .about__content {
+        align-self: auto;
+        max-width: none;
+    }
+    .about__video > video {
+        width: 100%;
+    }
+}
+@media (max-width: 769px) {
+    .header {
+        position: sticky;
+        background-color: #f6f6f6;
+        top: 0;
+        height: 100px;
+        z-index: 999999;
+    }
+    .header .container {
+        justify-content: space-between;
+        height: 100%;
+    }
+    .header__menu {
+        display: none;
+    }
+    .header__mobile-menu {
+        display: flex;
+    }
+}
